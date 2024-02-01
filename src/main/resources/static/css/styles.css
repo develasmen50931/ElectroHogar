@@ -1,0 +1,393 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 31, 2024, 9:11:52 PM
+    Author     : Daniel Velasquez M
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar a:hover{
+    background: #2E2E2E;
+}
+
+.logo{
+    margin-left: 15px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 60vh !important;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYRjAGntHvShbJI_jz5SaaInc1RWXa0jH-BRIGHgIBF4c79ZO_3AcNT46ECt6boawIrGZiNkmXW7tazm-SHUlnp_8Uz6yvi9k7-CUqihYoI7ZeP6XSpOHnk-4BEWNji9cxzRCM3zOT4W7mgHG7p-gNjJ-CbKsWno-wbgwVSh-5IyXdGaDF7TVbzVeMyo4/s1200/PAGINA-16.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.contact {
+    height: 100vh;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYRjAGntHvShbJI_jz5SaaInc1RWXa0jH-BRIGHgIBF4c79ZO_3AcNT46ECt6boawIrGZiNkmXW7tazm-SHUlnp_8Uz6yvi9k7-CUqihYoI7ZeP6XSpOHnk-4BEWNji9cxzRCM3zOT4W7mgHG7p-gNjJ-CbKsWno-wbgwVSh-5IyXdGaDF7TVbzVeMyo4/s1200/PAGINA-16.jpg) no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.box-contact{
+    height: 11rem;
+    width: 30rem;
+    background: rgba(16, 16, 16, 0.8);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.redes{
+    height: 100vh;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYRjAGntHvShbJI_jz5SaaInc1RWXa0jH-BRIGHgIBF4c79ZO_3AcNT46ECt6boawIrGZiNkmXW7tazm-SHUlnp_8Uz6yvi9k7-CUqihYoI7ZeP6XSpOHnk-4BEWNji9cxzRCM3zOT4W7mgHG7p-gNjJ-CbKsWno-wbgwVSh-5IyXdGaDF7TVbzVeMyo4/s1200/PAGINA-16.jpg) no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.pago{
+    height: 100vh;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYRjAGntHvShbJI_jz5SaaInc1RWXa0jH-BRIGHgIBF4c79ZO_3AcNT46ECt6boawIrGZiNkmXW7tazm-SHUlnp_8Uz6yvi9k7-CUqihYoI7ZeP6XSpOHnk-4BEWNji9cxzRCM3zOT4W7mgHG7p-gNjJ-CbKsWno-wbgwVSh-5IyXdGaDF7TVbzVeMyo4/s1200/PAGINA-16.jpg) no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.ubicacion{
+    height: 100vh;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYRjAGntHvShbJI_jz5SaaInc1RWXa0jH-BRIGHgIBF4c79ZO_3AcNT46ECt6boawIrGZiNkmXW7tazm-SHUlnp_8Uz6yvi9k7-CUqihYoI7ZeP6XSpOHnk-4BEWNji9cxzRCM3zOT4W7mgHG7p-gNjJ-CbKsWno-wbgwVSh-5IyXdGaDF7TVbzVeMyo4/s1200/PAGINA-16.jpg) no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.productos{
+    height: 100vh;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYRjAGntHvShbJI_jz5SaaInc1RWXa0jH-BRIGHgIBF4c79ZO_3AcNT46ECt6boawIrGZiNkmXW7tazm-SHUlnp_8Uz6yvi9k7-CUqihYoI7ZeP6XSpOHnk-4BEWNji9cxzRCM3zOT4W7mgHG7p-gNjJ-CbKsWno-wbgwVSh-5IyXdGaDF7TVbzVeMyo4/s1200/PAGINA-16.jpg) no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.noticias{
+    height: 100vh;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYRjAGntHvShbJI_jz5SaaInc1RWXa0jH-BRIGHgIBF4c79ZO_3AcNT46ECt6boawIrGZiNkmXW7tazm-SHUlnp_8Uz6yvi9k7-CUqihYoI7ZeP6XSpOHnk-4BEWNji9cxzRCM3zOT4W7mgHG7p-gNjJ-CbKsWno-wbgwVSh-5IyXdGaDF7TVbzVeMyo4/s1200/PAGINA-16.jpg) no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.box-noticias{
+    height: 5rem;
+    width: 100rem;
+    background: rgba(16, 16, 16, 0.8);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+
+
+.box-ubicacion{
+    height: 25rem;
+    width: 30rem;
+    background: rgba(16, 16, 16, 0.8);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+
+
+.title{
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: white;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: white;
+    padding: 0 100px;
+
+}
+
+
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: 2px solid #171717;
+    color: white;
+    text-decoration: none;
+    background: #171717;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home{
+    display: flex;
+
+}
+
+.btn-home a{
+    margin: 0 10px;
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.produc{
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: rgba(16, 16, 16, 0.8);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, 0.5);
+    margin: 2rem;
+    position: relative;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: #c32222;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: white;
+}
+
+.box-container .box p {
+    padding: 0 20px;
+    font-size: 12px;
+}
+
+.about {
+    background: #1f1d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.box-about {
+    max-width: 600px;
+    width: 90%;
+    height: 20rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    line-height: 1.4;
+    margin: auto;
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    background: url(https://www.twintowns.com.au/wp-content/uploads/2017/11/footer-background.jpg) no-repeat center;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+}
+
+
+.btnC {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #c32222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    margin-top: 15px;
+}
+
+
+.btnC:hover {
+    background: #ff4747;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.Noticias {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.noticia {
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: rgba(16, 16, 16, 0.8);
+}
+
+.noticia h3 {
+    color: #c32222;
+}
+
+.noticia p {
+    margin-bottom: 15px;
+}
+
+.btnC {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #c32222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btnC:hover {
+    background: #ff4747;
+}
+
+.informacion{
+    height: 100vh;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYRjAGntHvShbJI_jz5SaaInc1RWXa0jH-BRIGHgIBF4c79ZO_3AcNT46ECt6boawIrGZiNkmXW7tazm-SHUlnp_8Uz6yvi9k7-CUqihYoI7ZeP6XSpOHnk-4BEWNji9cxzRCM3zOT4W7mgHG7p-gNjJ-CbKsWno-wbgwVSh-5IyXdGaDF7TVbzVeMyo4/s1200/PAGINA-16.jpg) no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.box-info{
+    height: 35rem;
+    width: 50rem;
+    background: rgba(16, 16, 16, 0.8);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, 0, .5);
+    margin: 2rem;
+}
